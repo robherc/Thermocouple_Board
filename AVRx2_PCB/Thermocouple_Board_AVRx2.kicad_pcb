@@ -6489,7 +6489,7 @@
     (stroke (width 0.05) (type default)) (layer "Edge.Cuts") (tstamp e8fefb5c-7033-4c7b-831d-cc295258aeff))
   (gr_line (start 194 78) (end 198 82)
     (stroke (width 0.05) (type default)) (layer "Edge.Cuts") (tstamp ed56aae0-8f86-4ffc-9cc6-40f90363e1ca))
-  (gr_text "Https://github.com/Robherc/ThermocoupleBoard" (at 170 109.75) (layer "B.SilkS") (tstamp 27782f3e-1b7f-4911-b7c3-d043f9ee8643)
+  (gr_text "Https://github.com/Robherc/Thermocouple_Board" (at 170 109.75) (layer "B.SilkS") (tstamp 27782f3e-1b7f-4911-b7c3-d043f9ee8643)
     (effects (font (size 1.25 1) (thickness 0.15)) (justify left bottom mirror))
   )
   (gr_text "LO" (at 122.5 110.75) (layer "B.SilkS") (tstamp 8df83768-4ea3-464c-a77b-a5adea05e869)
