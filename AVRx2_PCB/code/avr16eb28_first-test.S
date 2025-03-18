@@ -1,8 +1,4 @@
-#define CPU_CCP         0x0034
-#define MCLKCTRLB       0x0061
-#define MCLKTIMEBASE    0x0066
-#define PORTA_DIR       0x0400
-#define PORTA_OUTTGL    0x0407
+#include "avr16eb28defs.inc"
 
 
         .org 0x00                     ; Stupid to put executable code in the interrupts queue, but let's live dangerously
