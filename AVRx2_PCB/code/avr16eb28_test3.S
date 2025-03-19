@@ -28,10 +28,10 @@ main:
         LDI     R16,            0x07
         STS     TCF0_CTRLB,     R16             ; WGM 8-bit PWM
         STS     TCF0_CTRLC,     R1              ; Enable WO0 OUTPUT
-        LDI     R16,            33
-        STS     TCF0_CNT1,      R16             ; 33 top count (5MHz/34 = 147kHz)
-        LDI     R16,            17
-        STS     TCF0_CMP0,      R16             ; 50% Duty-Cycle
+        LDI     R16,            16
+        STS     TCF0_CNT1,      R16             ; 36 top count (5MHz/17 = 294kHz)
+        LDI     R16,            4
+        STS     TCF0_CMP0,      R16             ; 23.5% Duty-Cycle
         STS     TCF0_CTRLA,     R1              ; Enable TCF0 (last)
 
 nop_loop:
