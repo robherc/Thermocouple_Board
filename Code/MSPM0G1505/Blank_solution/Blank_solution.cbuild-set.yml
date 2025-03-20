@@ -1,4 +1,0 @@
-cbuild-set:
-  generated-by: vscode-cmsis-csolution version 1.48.0
-  contexts:
-    - context: MSPM0G1505-test1.Debug+MSPM0G1505
