@@ -56,8 +56,8 @@ void setupADC(){
   SPI.transfer(0x03);             // write 4 bytes
   SPI.transfer(0x01);
   SPI.transfer(0x00);
-  SPI.transfer(0x03);
-  SPI.transfer(0x42);
+  SPI.transfer(0x00);
+  SPI.transfer(0x08);
   digitalWrite(CSPIN, HIGH);
 
   digitalWrite(CSPIN, LOW);
