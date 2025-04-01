@@ -1,3 +1,0 @@
-avr-gcc -mmcu=avr16eb28 -Wall -Os -o blink.elf blink.c
-avr-objcopy -j .text -j .data -O ihex blink.elf blink.hex
-avrdude -p avr16eb28 -c serialupdi -P /dev/ttyUSB0 -U flash:w:blink.hex
